@@ -6,6 +6,12 @@ body {
 
 #icon-profile-home {
   width: 3em;
+  border-radius: 30px;
+}
+
+#icon-profile-home:hover {
+  border: 2px solid darkred;
+  transition: all 0.2s linear 0s;
 }
 
 header nav {
@@ -128,6 +134,14 @@ main #img-poster {
 main #box-film {
   background-color: rgb(30, 30, 30);
   border-radius: 20px;
+  box-shadow: 0px 0px 5px 1px black;
+}
+
+main #description {
+  border-bottom: 1px solid darkred;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 8px 10px 1px #00000080;
 }
 
 main .title-gallery {
@@ -145,6 +159,42 @@ main #title-home {
   padding: 1em;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+}
+
+main #row {
+  border-left: 2px solid darkred;
+  border-right: 2px solid darkred;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0px 0px 10px 1px black;
+}
+
+/* Larghezza della scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* Sfondo del binario */
+::-webkit-scrollbar-track {
+  background: #383838d8;
+  border-radius: 5px;
+}
+
+/* Colore e stile del "thumb" (la parte trascinabile) */
+::-webkit-scrollbar-thumb {
+  /* background: #707070d2; */
+  border-radius: 20px;
+  background: linear-gradient(to right, #722a2a, #a23f3f);
+  box-shadow: 0px 0px 5px 1px black;
+}
+
+/* Effetto hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to right, #722a2a, #a23f3f);
+  border: 1px solid white;
 }
 
 footer .link-edit1 {

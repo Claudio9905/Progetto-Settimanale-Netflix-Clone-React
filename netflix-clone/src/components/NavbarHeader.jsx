@@ -66,7 +66,7 @@ const NavbarHeader = () => {
             <button id="btn-ring">
               <i className="bi bi-bell-fill mx-2 fs-4" id="ring"></i>
             </button>
-            <a href="./index-profile.html">
+            <a href="./index-profile.html" className="text-decoration-none">
               <img
                 src="./doctor-strange-icon.png"
                 alt="icona-profilo"
