@@ -22,29 +22,33 @@ const NavbarHeader = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+            <ul className="navbar-nav me-auto my-2 p-1 my-lg-0 navbar-nav-scroll">
               <li className="nav-item">
-                <a className="nav-link text-light" aria-current="page" href="#">
+                <a
+                  className="nav-link text-light tag-page"
+                  aria-current="page"
+                  href="#"
+                >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">
+                <a className="nav-link text-light tag-page" href="#">
                   TV Shows
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">
+                <a className="nav-link text-light tag-page" href="#">
                   Movies
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">
+                <a className="nav-link text-light tag-page" href="#">
                   Recently Added
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">
+                <a className="nav-link text-light tag-page" href="#">
                   My List
                 </a>
               </li>

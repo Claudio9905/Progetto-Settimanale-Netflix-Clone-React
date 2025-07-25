@@ -25,6 +25,12 @@ header #logo-netflix {
   width: 15%;
 }
 
+header nav .tag-page:hover {
+  border: 1px solid white;
+  border-radius: 20px;
+  transition: all 0.1s linear 0s;
+}
+
 #edit {
   width: 5.5em;
   height: 2em;
